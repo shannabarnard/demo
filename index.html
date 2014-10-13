@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Demo: What's on</title>
+  <meta name="description" content="Responsive, mobile-first demo page">
+  <meta name="keywords" content="Responsive, mobile-first, jQuery, Ajax ">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <script async src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body>
+  <a class="sr-only sr-only-focusable" href="#main-content">Skip to main content</a>
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!-- Start: Main event -->
+  <main id="main-content">
+    <div class="container">
+      <h1>What's on</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/placeholder@2x.jpg" alt="placeholder image"  title="Placeholder" class="img-responsive">
+        </div>
+        <div class="col-md-8">
+          <h3>Event title</h3>
+          <h4>Exibition</h4>
+          <time datetime="2014-05-13/2014-12-31">13th May &ndash; 31st December</time>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- End: Main event -->
+
+  <div class="container">
+    <!-- Start: Original events -->
+    <section class="row">
+      <div class="col-md-4">
+        <img src="img/placeholder@2x.jpg" alt="placeholder image"  title="Placeholder" class="img-responsive">
+        <h3>Event title</h3>
+        <h4>Discussion</h4>
+        <time datetime="2014-05-14">14th May</time>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/placeholder@2x.jpg" alt="placeholder image"  title="Placeholder" class="img-responsive">
+        <h3>Event title</h3>
+        <h4>Exibition</h4>
+        <time datetime="2014-06-25/2014-08-22">5th June &ndash; 22nd August</time>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/placeholder@2x.jpg" alt="placeholder image"  title="Placeholder" class="img-responsive">
+        <h3>Event title</h3>
+        <h4>Workshop</h4>
+        <time datetime="2014-08-13 12:00">13th August &ndash; 12:00</time>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      </div>
+    </section>
+    <!-- End: Original events -->
+
+    <!-- Start: View more events -->
+    <section class="row">
+        <a id="moreLink" class="btn btn-primary btn-lg" role="button" title="View more events">View more events &raquo;</a>
+          <img class="loader" src="img/ajax-loader.gif" alt="Loading..."/>
+      <div id="moreEvents"></div>
+    </section>
+    <!-- End: View more events -->
+
+    <hr>
+    <!-- Start: Permanent Events -->
+    <aside class="row">
+      <div class="col-md-6">
+        <img src="img/placeholder@2x.jpg" alt="placeholder image"  title="Placeholder" class="img-responsive">
+        <h3>Event title</h3>
+        <h4>Permanent exibition</h4>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="img/placeholder@2x.jpg" alt="placeholder image"  title="Placeholder" class="img-responsive">
+        <h3>Event title</h3>
+        <h4>Permanent exibition</h4>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      </div>
+    </aside>
+    <!-- End: Permanent Events -->
+
+    <hr>
+
+    <!-- Start: Footer -->
+    <footer>
+      <p>&copy; Shanna Barnard 2014</p>
+    </footer>
+    <!-- End: Footer -->
+
+    </div> <!-- /container -->
+    <script async src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script async src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+/* Sass Document */
+
+// prefix elements
+$prefix-webkit:               true !global;
+$prefix-moz:                  true !global;
+$prefix-spec:                 true !global;
+
+//== Colors ==//
+//## Grey and brand colors for use across Bootstrap.
+
+$grey-dark:              lighten(#000, 20%);   // #333
+$grey:                   lighten(#000, 33.5%); // #555
+$grey-light:             lighten(#000, 60%);   // #999
+$grey-lighter:           lighten(#000, 80%);   // #ccc
+$grey-lightest:          lighten(#000, 93.5%); // #eee
+$white:                  lighten(#000, 100%);  // #fff
+$yellow:                 #f0ad4e;

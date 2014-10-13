@@ -1,0 +1,27 @@
+In this folder you should find 3 files:
+
+- instructions.txt
+- questions-comments.txt
+- sketch.jpg
+
+If anything about the task is unclear, just take your best guess in order to proceed.  If you would have benefitted from clarification on any part of the task as you carried it out, please write the types of questions you might have asked in the questions-comments.txt file
+
+TASK:
+
+The sketch.jpg file shows a sketch of a web page at its largest breakpoint. The page is a 'What's On' landing page for a venue and displays various types of events that are available to attend.
+
+We'd like you to mark up a responsive html page based on this sketch, with any css and javascript files you deem necessary. Please use your judgement about how best to display the page at smaller screen widths.
+
+Please don’t spend too long or worry about making it look fantastic, we're more interested in seeing sensible file structures and clean semantic markup, but do add any class names to elements that you think would be useful for styling purposes.
+
+When clicked, the link 'view more events' should make an ajax request that, when completed, replaces the link with three more event items.
+
+Notes:
+
+Feel free to use any libraries/frameworks you think appropriate.
+
+Just use placeholder images and text.
+
+Tackle the task as if you're a developer working as part of a team on a larger project.
+
+Keep in mind Accessibility and SEO best practice.

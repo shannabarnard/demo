@@ -1,0 +1,36 @@
+#main-content {
+ background-color: $grey-lightest;
+ padding: 30px 0;
+ margin-bottom: 30px;
+ p {
+  font-size: 125%;
+ }
+}
+@media screen and (min-width: 990px) {
+  #main-content h3 {
+    margin-top: 0;
+  }
+}
+
+time {
+  color: $grey-dark;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#moreLink {
+   margin: 15px 15px 0;
+}
+
+#moreEvents {
+ margin-top: 15px;
+}
+
+.badge {
+ background-color: $yellow;
+ vertical-align: super;
+}
+
+.loader {
+ display: none;
+}
